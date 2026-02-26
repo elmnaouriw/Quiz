@@ -141,3 +141,6 @@ answerButtons[2].addEventListener("click", function () {
 
 // État initial
 scoreText.textContent = "Score: 0";
+async function chargerDonnees() {
+  let reponse = await fetch("https://api.com");
+}
