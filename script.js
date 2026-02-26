@@ -5,19 +5,19 @@ var sessionSeed = "2026-02-24";
 // Étape 2 - Données de quiz
 var questions = [
   {
-    question: "Quel mot clé déclare une variable modifiable ?",
-    choices: ["const", "let", "return"],
-    answer: "let",
+    question: " Quelle est la principale difficulté des cliniques esthétiques dans la gestion des demandes en ligne ?",
+    choices: ["Manque de chirurgiens", "Trop de patients satisfaits", "Demandes mal qualifiées et mal suivies","Manque de salles d’opération"],
+    answer: "Demandes mal qualifiées et mal suivies",
   },
   {
-    question: "Quelle méthode attache un événement click ?",
-    choices: ["appendChild", "addEventListener", "querySelector"],
-    answer: "addEventListener",
+    question: "Quel est l’objectif principal du SaaS proposé?",
+    choices: ["Remplacer complètement le site internet de la clinique", "Gérer les stocks de matériel médicalr", "Transformer plus de demandes en consultations","Former les chirurgiens"],
+    answer: "Transformer plus de demandes en consultations",
   },
   {
-    question: "Quelle propriété modifie le texte d'un élément ?",
-    choices: ["textContent", "innerWidth", "nodeName"],
-    answer: "textContent",
+    question: "Que permet le dashboard de la solution ?",
+    choices: ["Voir les interventions chirurgicales en direct", "Suivre les leads et leur statut", "Commander du matériel","Gérer la paie du personnel"],
+    answer: "Suivre les leads et leur statut",
   },
 ];
 
@@ -141,6 +141,3 @@ answerButtons[2].addEventListener("click", function () {
 
 // État initial
 scoreText.textContent = "Score: 0";
-async function chargerDonnees() {
-  let reponse = await fetch("https://api.com");
-}
